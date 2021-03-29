@@ -90,8 +90,6 @@ class Binomial(Distribution):
         plt.bar(self.data)
         plt.show()
 
-
-        # TODO: Calculate the probability density function of the binomial distribution
     def pdf(self, k):
 
         """Probability density function calculator for the binomial distribution.
@@ -107,8 +105,9 @@ class Binomial(Distribution):
         c2 = self.p ** k * (1 - self.p) ** (self.n - k)
         return c1 * c2
 
-        # write a method to plot the probability density function of the binomial distribution
-
+        # TODO: write a method to plot the probability density function of the binomial distribution
+    def plot_pdf(self):
+        pass
         """Function to plot the pdf of the binomial distribution
         
         Args:
