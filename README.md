@@ -8,6 +8,7 @@ This repository contains a python package that can be used to statistically anal
 ## How to use
 To use this python package you have to clone or download the repository. In the calc-distribution folder you need to execute the command `pip install .`.
 This installs the package to your global python installation. Note: Maybe you want to use a virtual environment to try out the package first without installing it to your global python installation.
+
 To use the methods in python you can write: `from distributions import Gaussian, Binomial`
 
 ## Neccessary Libraries
