@@ -1,5 +1,6 @@
 # calc-distributions
 This python package can be installed to use statistical operations for several distributions.
+The package was created during the attendance of the Udacity Data Science Nano Degree Program. 
 
 ## How to use
 To use this python package you have to clone or download the repository. In the calc-distribution folder you need to execute the command `pip install .`.
